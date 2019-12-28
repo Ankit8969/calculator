@@ -1,0 +1,36 @@
+body
+{
+  background-color: #90303d;
+  color:black;
+}
+.heading p
+{
+    font-size: 6rem;
+    text-align: center;
+}
+
+.btn
+{
+  width:4rem;
+  height:4rem;
+  background: blue;
+  font-size: 28px;
+}
+
+#text
+{
+  width:12rem;
+  height:2rem;
+  background-color: green;
+  font-size: 25px;
+}
+section
+{
+  text-align: center;
+}
+form
+{
+  width:14rem;
+  height:24rem;
+  margin-left: 45%;
+}

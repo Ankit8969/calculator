@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator 📱</title>
+    <link rel="stylesheet" href="external.css">
+  </head>
+  <body>
+    <div class="heading">
+      <p>Ankit 📱 Calculator</p>
+    </div>
+    <section>
+    <form name="form">
+      <input type="text" name="answer" id="text"> <br>
+
+      <input class="btn" type="button" name="" value="1" onclick="form.answer.value += '1'">
+      <input  class="btn" type="button" name="" value="2" onclick="form.answer.value += '2'">
+      <input  class="btn" type="button" name="" value="3" onclick="form.answer.value += '3'"> <br>
+
+      <input  class="btn" type="button" name="" value="4" onclick="form.answer.value += '4'">
+      <input  class="btn" type="button" name="" value="5" onclick="form.answer.value += '5'">
+      <input  class="btn" type="button" name="" value="6" onclick="form.answer.value += '6'">  <br>
+
+      <input  class="btn" type="button" name="" value="7" onclick="form.answer.value += '7'">
+      <input  class="btn" type="button" name="" value="8" onclick="form.answer.value += '8'">
+      <input  class="btn" type="button" name="" value="9" onclick="form.answer.value += '9'"> <br>
+
+      <input  class="btn" type="button" name="" value="0" onclick="form.answer.value += '0'">
+      <input  class="btn" type="button" name="" value="+" onclick="form.answer.value += '+'">
+      <input  class="btn" type="button" name="" value="-" onclick="form.answer.value += '-'">  <br>
+
+      <input  class="btn" type="button" name="" value="*" onclick="form.answer.value += '*'">
+      <input  class="btn" type="button" name="" value="/" onclick="form.answer.value += '/'">
+      <input  class="btn" type="button" name="" value="=" onclick="form.answer.value =eval(form.answer.value)">  <br>
+
+      <input id="text" type="button" name="" value="Clear Value" onclick="form.answer.value=''">
+    </form>
+  </section>
+  </body>
+</html>
